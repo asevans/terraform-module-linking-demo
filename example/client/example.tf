@@ -4,6 +4,6 @@ module "writefile-foo" {
 }
 
 module "writefile-bar" {
-  source = "git@github.com:asevans/terraform-module-linking-demo.git//bar?ref=version1"
+  source = "git@github.com:asevans/terraform-module-linking-demo.git//bar?ref=version2"
   content = "bar content"
 }

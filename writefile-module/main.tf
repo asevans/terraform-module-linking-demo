@@ -1,5 +1,5 @@
 resource "local_file" "this" {
-  content     = "local_file version1 - ${var.content}"
+  content     = "local_file version2 - ${var.content}"
   filename = "${var.filename}"
 }
 
